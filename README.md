@@ -11,16 +11,13 @@ FedNXT is one-stop solution to the supply chain and warehouse management needs o
 - Transfer products to warehouses, price estimation for freights using ML model
 - Overview & warehouse stock charts, Product quantity & expiry alerts, Daily, monthly custom sales, payments, profit/loss purchase report, Customers, supplier, due, best-seller reports
 
-### Working of FedNXT
-
-### FedNXT App 
+### FedNXT 
 <pre>
-<img src="./images/img1.jpg" alt="1" width="500" height="380" /> 
-<img src="./images/img2.jpg" alt="1" width="500" height="380" /> 
-<img src="./images/img3.jpg" alt="1" width="500" height="380" /> 
-<img src="./images/img4.jpg" alt="1" width="500" height="380" /> 
-<img src="./images/img5.jpg" alt="1" width="500" height="380" /> 
-<img src="./images/img6.jpg" alt="1" width="500" height="380" /> 
+<img src="./Image-Assets/img1.jpeg" alt="1" width="500" height="380" /> 
+<img src="./Image-Assets/img2.jpeg" alt="1" width="500" height="380" /> 
+<img src="./Image-Assets/img3.jpeg" alt="1" width="500" height="380" /> 
+<img src="./Image-Assets/img4.jpeg" alt="1" width="500" height="380" /> 
+<img src="./Image-Assets/img5.jpeg" alt="1" width="500" height="380" />  
 </pre>
 
 ### How to run?
