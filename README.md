@@ -1,6 +1,6 @@
 ![](./Image-Assets/image1.gif)
 # FedNXT
-# [Website Here](https://drive.google.com/file/d/11wZ_09a3Q_Dx0UdZoB4NDb7GwuoueZkc/view?usp=share_link) | [App Here](https://drive.google.com/file/d/11wZ_09a3Q_Dx0UdZoB4NDb7GwuoueZkc/view?usp=share_link) | [Documentation Here](https://drive.google.com/file/d/11wZ_09a3Q_Dx0UdZoB4NDb7GwuoueZkc/view?usp=share_link)
+# [Website Here](https://globalbloodbanking.ml/ware/login) | [App Here](https://drive.google.com/file/d/11wZ_09a3Q_Dx0UdZoB4NDb7GwuoueZkc/view?usp=share_link) | [Documentation Here](https://drive.google.com/file/d/11wZ_09a3Q_Dx0UdZoB4NDb7GwuoueZkc/view?usp=share_link)
 FedNXT is one-stop solution to the supply chain and warehouse management needs of B2B sectors with additional features of giving ondemand estimate of freight shipping charges using an API exposing the underlying machine learning model.
 
 
@@ -15,32 +15,20 @@ FedNXT is one-stop solution to the supply chain and warehouse management needs o
 
 ### FedNXT App 
 <pre>
-<img src="./images/img1.jpg" alt="1" width="300" height="600" /> <img src="./images/img2.jpg" alt="1" width="300" height="600" /> <img src="./images/img3.jpg" alt="1" width="300" height="600" /> <img src="./images/img11.jpg" alt="1" width="300" height="600" /> <img src="./images/img4.jpg" alt="1" width="300" height="600" /> <img src="./images/img5.jpg" alt="1"
-	 width="300" height="600" /> <img src="./images/img6.jpg" alt="1"
-	 width="300" height="600" /> <img src="./images/img7.jpg" alt="1"
-	 width="300" height="600" />
-
+<img src="./images/img1.jpg" alt="1" width="500" height="380" /> 
+<img src="./images/img2.jpg" alt="1" width="500" height="380" /> 
+<img src="./images/img3.jpg" alt="1" width="500" height="380" /> 
+<img src="./images/img4.jpg" alt="1" width="500" height="380" /> 
+<img src="./images/img5.jpg" alt="1" width="500" height="380" /> 
+<img src="./images/img6.jpg" alt="1" width="500" height="380" /> 
 </pre>
 
-## Problem it Solves
+### How to run?
+- setup server through cpanel
+- flask run to expose API
+- follow the attached documentation
+- Login: admin Password: admin
 
-- It gives curated list of destinations based on rating where LGBTQ+ communites are welcomed.
-- It is important to ensure safety and the locations recommended here are safe.
-- It helps to be a part of greater facilitator in travel and tourism needs of LGBTQ+ communities.
-
-## Challenges we faced
-
-- Gathering the data of categories as such hotels, restaurants, dineouts, beachers, etc.
-- Building the database for co-ordinates(latitude and Longitude) of the places.
-- Fetching reviews and ratings.
-- Plaing the searching parameters.
-- integrating multiple 3rd party services like maps, booking sites was the trickiest part.
-
-## Proposed Enhancements
-- Scrapping data of hotels.
-- integrating ride booking.
-- Live in-app events.
-- Support for connecting chain on institutions.
 
 ### Contributors
 - Shashank Kumar
