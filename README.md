@@ -1,20 +1,19 @@
-![](./Image-Assets/img1.gif)
-# prideBnB🌈
-# [Download App Here](https://drive.google.com/file/d/11wZ_09a3Q_Dx0UdZoB4NDb7GwuoueZkc/view?usp=share_link)   
-An app to assist people of LGBTQ+ communities to find hotels, places and destinations with good hospitality.
-
-### Feature of prideBnB
-- create User Profile, select "I identify as" option and explore.
-- Explore various categories of Hotels, Hospitals, Places and destinations.
-- Search and get the curated results of places based on ratings and review.
-- Apply various filters to get desired result.
-- Get information as such reviews, ratings and location.
-- Get direction to booking of prefered location.
-- Tap and know about the LGBTQ+ rights in different states of India.
-- Write reviews and be a guide to others.
+![](./Image-Assets/image1.gif)
+# FedNXT
+# [Website Here](https://drive.google.com/file/d/11wZ_09a3Q_Dx0UdZoB4NDb7GwuoueZkc/view?usp=share_link) | [App Here](https://drive.google.com/file/d/11wZ_09a3Q_Dx0UdZoB4NDb7GwuoueZkc/view?usp=share_link) | [Documentation Here](https://drive.google.com/file/d/11wZ_09a3Q_Dx0UdZoB4NDb7GwuoueZkc/view?usp=share_link)
+FedNXT is one-stop solution to the supply chain and warehouse management needs of B2B sectors with additional features of giving ondemand estimate of freight shipping charges using an API exposing the underlying machine learning model.
 
 
-### ScreenShots of prideBnB 
+### Feature of FedNXT
+- allows you to manage your inventory, sales, purchases, customers, invoices, take payments and much more.
+- Update your stock information, make purchases and view sales information from anywhere anytime. 
+- For products,you have Standard Product, Digital Product, Product Category with operation functionalites of Add, edit, delete & view products, Print Barcodes, Import by CSV
+- Transfer products to warehouses, price estimation for freights using ML model
+- Overview & warehouse stock charts, Product quantity & expiry alerts, Daily, monthly custom sales, payments, profit/loss purchase report, Customers, supplier, due, best-seller reports
+
+### Working of FedNXT
+
+### FedNXT App 
 <pre>
 <img src="./images/img1.jpg" alt="1" width="300" height="600" /> <img src="./images/img2.jpg" alt="1" width="300" height="600" /> <img src="./images/img3.jpg" alt="1" width="300" height="600" /> <img src="./images/img11.jpg" alt="1" width="300" height="600" /> <img src="./images/img4.jpg" alt="1" width="300" height="600" /> <img src="./images/img5.jpg" alt="1"
 	 width="300" height="600" /> <img src="./images/img6.jpg" alt="1"
@@ -46,7 +45,8 @@ An app to assist people of LGBTQ+ communities to find hotels, places and destina
 ### Contributors
 - Shashank Kumar
 - Aman Gupta
-- Richa Agrawal
 - Shubhi Singh
 
-Built with ❤️ by Team C.O.D.E
+Built with ❤️ by Team C.O.D.E<br>
+Paradigm, E-Submit'23<br>
+Shiv Nadar University
