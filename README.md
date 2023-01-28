@@ -48,6 +48,6 @@ FedNXT is one-stop solution to the supply chain and warehouse management needs o
 - Richa Agrawal
 - Shubhi Singh
 
-Built with ❤️ by Team C.O.D.E
-- Paradigm, E-Submit'23
-- Shiv Nadar University
+Built with ❤️ by Team C.O.D.E<br>
+Paradigm, E-Submit'23<br>
+Shiv Nadar University
