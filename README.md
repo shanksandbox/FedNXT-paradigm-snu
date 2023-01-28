@@ -13,12 +13,12 @@ FedNXT is one-stop solution to the supply chain and warehouse management needs o
 
 ### FedNXT 
 <pre>
-<img src="./images/img1.jpg" alt="1" width="500" height="380" /> 
-<img src="./images/img2.jpg" alt="1" width="500" height="380" /> 
-<img src="./images/img3.jpg" alt="1" width="500" height="380" /> 
-<img src="./images/img4.jpg" alt="1" width="500" height="380" /> 
-<img src="./images/img5.jpg" alt="1" width="500" height="380" /> 
-<img src="./images/img6.jpg" alt="1" width="500" height="380" /> 
+<img src="./images/img1.jpeg" alt="1" width="500" height="380" /> 
+<img src="./images/img2.jpeg" alt="1" width="500" height="380" /> 
+<img src="./images/img3.jpeg" alt="1" width="500" height="380" /> 
+<img src="./images/img4.jpeg" alt="1" width="500" height="380" /> 
+<img src="./images/img5.jpeg" alt="1" width="500" height="380" /> 
+<img src="./images/img6.jpeg" alt="1" width="500" height="380" /> 
 </pre>
 
 ### How to run?
