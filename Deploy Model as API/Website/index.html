@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<html lang="en">
+
+ <!-- Head-->
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Linear Regression</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Bootstrap icons-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" type="text/css" />
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css" />
+		  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+		  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+		  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+	 <!-- End of Head-->
+	 
+    <body>
+        <!-- Navigation-->
+        <nav class="navbar navbar-dark bg-dark static-top">
+            <div class="container">
+                <a class="navbar-brand" href="#!">FedNXT | Shipping Charges</a>
+                <a class="navbar-brand" href="#about">About</a>
+            </div>
+        </nav>
+        <!-- Masthead-->
+      
+            <div class="container position-relative">
+                <div class="row justify-content-center">
+                    <div class="col-xl-6">
+                        <div class="center-header">
+                            <!-- Page heading-->
+							<div class="form-group mx-sm-1 mb-2 gap-3">
+                            <h4 class="mb-5 top-header">Shipping Details </h4>
+							</div>
+						  <div  id="frm">
+						<div class="form-group mx-sm-1 mb-2 gap-4">
+							<label for="budgetamount" class="sr-only">Budget Amount</label>
+							  <select type= class="form-control form-control-md input-budget" id="budgetamount1" required  placeholder="Commodity Code">
+								<option selected>From Warehouse</option>
+								<option value="">Andorra</option>
+<option value="">Anguilla</option>
+<option value="">Antigua and Barbuda</option>
+<option value="">Argentina</option>
+<option value="">Armenia</option>
+<option value="">Aruba</option>
+<option value="">Australia</option>
+<option value="">Austria</option>
+<option value="">Azerbaijan</option>
+<option value="">Bahamas</option>
+<option value="">Bahrain</option>
+<option value="">Bangladesh</option>
+<option value="">Barbados</option>
+<option value="">Belarus</option>
+<option value="">Belgium</option>
+<option value="">Belize</option>
+<option value="">Benin</option>
+<option value="">Bermuda</option>
+<option value="">Botswana</option>
+<option value="">Brazil</option>
+<option value="">Bulgaria</option>
+<option value="">Burkina Faso</option>
+<option value="">Burundi</option>
+<option value="">Cambodia</option>
+<option value="">Cameroon</option>
+<option value="">Canada</option>
+<option value="">Chile</option>
+<option value="">China</option>
+<option value="">Colombia</option>
+<option value="">Costa Rica</option>
+<option value="">Croatia</option>
+<option value="">Cuba</option>
+<option value="">Cyprus</option>
+<option value="">Denmark</option>
+<option value="">Dominica</option>
+<option value="">Ecuador</option>
+<option value="">Egypt</option>
+<option value="">El Salvador</option>
+<option value="">Estonia</option>
+<option value="">Ethiopia</option>
+<option value="">Fiji</option>
+<option value="">Finland</option>
+<option value="">France</option>
+<option value="">French Polynesia</option>
+<option value="">Gabon</option>
+<option value="">Gambia</option>
+<option value="">Georgia</option>
+<option value="">Germany</option>
+<option value="">Ghana</option>
+<option value="">Greece</option>
+<option value="">Greenland</option>
+<option value="">Grenada</option>
+<option value="">Guadeloupe</option>
+<option value="">Guatemala</option>
+<option value="">Guinea</option>
+<option value="">Guyana</option>
+<option value="">Honduras</option>
+<option value="">Hungary</option>
+<option value="">Iceland</option>
+<option value="">Indonesia</option>
+<option value="">Iran</option>
+<option value="">Iraq</option>
+<option value="">Ireland</option>
+<option value="">Israel</option>
+<option value="">Italy</option>
+<option value="">Jamaica</option>
+<option value="">Japan</option>
+<option value="">Jordan</option>
+<option value="">Kazakhstan</option>
+<option value="">Kenya</option>
+<option value="">Kuwait</option>
+<option value="">Kyrgyzstan</option>
+<option value="">Latvia</option>
+<option value="">Angola</option>
+<option value="">Bhutan</option>
+<option value="">Comoros</option>
+<option value="">Eritrea</option>
+<option value="">Djibouti</option>
+<option value="">French Guiana</option>
+<option value="">Guinea-Bissau</option>
+<option value="">Haiti</option>
+<option value="">Lebanon</option>
+<option value="">Lesotho</option>
+<option value="">Lithuania</option>
+<option value="">Luxembourg</option>
+<option value="">Madagascar</option>
+<option value="">Malawi</option>
+<option value="">Malaysia</option>
+<option value="">Maldives</option>
+<option value="">Mali</option>
+<option value="">Malta</option>
+<option value="">Martinique</option>
+<option value="">Mauritius</option>
+<option value="">Mayotte</option>
+<option value="">Mexico</option>
+<option value="">Mongolia</option>
+<option value="">Montenegro</option>
+<option value="">Montserrat</option>
+<option value="">Morocco</option>
+<option value="">Mozambique</option>
+<option value="">Namibia</option>
+<option value="">Nepal</option>
+<option value="">Netherlands</option>
+<option value="">New Caledonia</option>
+<option value="">New Zealand</option>
+<option value="">Nicaragua</option>
+<option value="">Niger</option>
+<option value="">Nigeria</option>
+<option value="">Norway</option>
+<option value="">Oman</option>
+<option value="">Pakistan</option>
+<option value="">Palau</option>
+<option value="">Panama</option>
+<option value="">Papua New Guinea</option>
+<option value="">Paraguay</option>
+<option value="">Peru</option>
+<option value="">Philippines</option>
+<option value="">Poland</option>
+<option value="">Portugal</option>
+<option value="">Qatar</option>
+<option value="">Romania</option>
+<option value="">Rwanda</option>
+<option value="">Saint Kitts and Nevis</option>
+<option value="">Saint Lucia</option>
+<option value="">Saint Vincent and the Grenadines</option>
+<option value="">Samoa</option>
+<option value="">Saudi Arabia</option>
+<option value="">Senegal</option>
+<option value="">Serbia</option>
+<option value="">Seychelles</option>
+<option value="">Sierra Leone</option>
+<option value="">Singapore</option>
+<option value="">Slovakia</option>
+<option value="">Slovenia</option>
+<option value="">South Africa</option>
+<option value="">Spain</option>
+<option value="">Sri Lanka</option>
+<option value="">Sudan</option>
+<option value="">Suriname</option>
+<option value="">Swaziland</option>
+<option value="">Sweden</option>
+<option value="">Switzerland</option>
+<option value="">Syria</option>
+<option value="">Thailand</option>
+<option value="">Timor-Leste</option>
+<option value="">Togo</option>
+<option value="">Tonga</option>
+<option value="">Trinidad and Tobago</option>
+<option value="">Tunisia</option>
+<option value="">Turkey</option>
+<option value="">Uganda</option>
+<option value="">Ukraine</option>
+<option value="">United Arab Emirates</option>
+<option value="">United Kingdom</option>
+<option value="">Uruguay</option>
+<option value="">Vanuatu</option>
+<option value="">Venezuela</option>
+<option value="">Yemen</option>
+<option value="">Zambia</option>
+<option value="">Zimbabwe</option>
+<option value="">Afghanistan</option>
+<option value="">Kiribati</option>
+<option value="">Mauritania</option>
+
+
+							  </select>
+							
+							  <select type= class="form-control form-control-md input-budget" id="budgetamount1" required  placeholder="Commodity Code">
+								<option selected>To Warehouse</option>
+								<option value="">Andorra</option>
+<option value="">Anguilla</option>
+<option value="">Antigua and Barbuda</option>
+<option value="">Argentina</option>
+<option value="">Armenia</option>
+<option value="">Aruba</option>
+<option value="">Australia</option>
+<option value="">Austria</option>
+<option value="">Azerbaijan</option>
+<option value="">Bahamas</option>
+<option value="">Bahrain</option>
+<option value="">Bangladesh</option>
+<option value="">Barbados</option>
+<option value="">Belarus</option>
+<option value="">Belgium</option>
+<option value="">Belize</option>
+<option value="">Benin</option>
+<option value="">Bermuda</option>
+<option value="">Botswana</option>
+<option value="">Brazil</option>
+<option value="">Bulgaria</option>
+<option value="">Burkina Faso</option>
+<option value="">Burundi</option>
+<option value="">Cambodia</option>
+<option value="">Cameroon</option>
+<option value="">Canada</option>
+<option value="">Chile</option>
+<option value="">China</option>
+<option value="">Colombia</option>
+<option value="">Costa Rica</option>
+<option value="">Croatia</option>
+<option value="">Cuba</option>
+<option value="">Cyprus</option>
+<option value="">Denmark</option>
+<option value="">Dominica</option>
+<option value="">Ecuador</option>
+<option value="">Egypt</option>
+<option value="">El Salvador</option>
+<option value="">Estonia</option>
+<option value="">Ethiopia</option>
+<option value="">Fiji</option>
+<option value="">Finland</option>
+<option value="">France</option>
+<option value="">French Polynesia</option>
+<option value="">Gabon</option>
+<option value="">Gambia</option>
+<option value="">Georgia</option>
+<option value="">Germany</option>
+<option value="">Ghana</option>
+<option value="">Greece</option>
+<option value="">Greenland</option>
+<option value="">Grenada</option>
+<option value="">Guadeloupe</option>
+<option value="">Guatemala</option>
+<option value="">Guinea</option>
+<option value="">Guyana</option>
+<option value="">Honduras</option>
+<option value="">Hungary</option>
+<option value="">Iceland</option>
+<option value="">Indonesia</option>
+<option value="">Iran</option>
+<option value="">Iraq</option>
+<option value="">Ireland</option>
+<option value="">Israel</option>
+<option value="">Italy</option>
+<option value="">Jamaica</option>
+<option value="">Japan</option>
+<option value="">Jordan</option>
+<option value="">Kazakhstan</option>
+<option value="">Kenya</option>
+<option value="">Kuwait</option>
+<option value="">Kyrgyzstan</option>
+<option value="">Latvia</option>
+<option value="">Angola</option>
+<option value="">Bhutan</option>
+<option value="">Comoros</option>
+<option value="">Eritrea</option>
+<option value="">Djibouti</option>
+<option value="">French Guiana</option>
+<option value="">Guinea-Bissau</option>
+<option value="">Haiti</option>
+<option value="">Lebanon</option>
+<option value="">Lesotho</option>
+<option value="">Lithuania</option>
+<option value="">Luxembourg</option>
+<option value="">Madagascar</option>
+<option value="">Malawi</option>
+<option value="">Malaysia</option>
+<option value="">Maldives</option>
+<option value="">Mali</option>
+<option value="">Malta</option>
+<option value="">Martinique</option>
+<option value="">Mauritius</option>
+<option value="">Mayotte</option>
+<option value="">Mexico</option>
+<option value="">Mongolia</option>
+<option value="">Montenegro</option>
+<option value="">Montserrat</option>
+<option value="">Morocco</option>
+<option value="">Mozambique</option>
+<option value="">Namibia</option>
+<option value="">Nepal</option>
+<option value="">Netherlands</option>
+<option value="">New Caledonia</option>
+<option value="">New Zealand</option>
+<option value="">Nicaragua</option>
+<option value="">Niger</option>
+<option value="">Nigeria</option>
+<option value="">Norway</option>
+<option value="">Oman</option>
+<option value="">Pakistan</option>
+<option value="">Palau</option>
+<option value="">Panama</option>
+<option value="">Papua New Guinea</option>
+<option value="">Paraguay</option>
+<option value="">Peru</option>
+<option value="">Philippines</option>
+<option value="">Poland</option>
+<option value="">Portugal</option>
+<option value="">Qatar</option>
+<option value="">Romania</option>
+<option value="">Rwanda</option>
+<option value="">Saint Kitts and Nevis</option>
+<option value="">Saint Lucia</option>
+<option value="">Saint Vincent and the Grenadines</option>
+<option value="">Samoa</option>
+<option value="">Saudi Arabia</option>
+<option value="">Senegal</option>
+<option value="">Serbia</option>
+<option value="">Seychelles</option>
+<option value="">Sierra Leone</option>
+<option value="">Singapore</option>
+<option value="">Slovakia</option>
+<option value="">Slovenia</option>
+<option value="">South Africa</option>
+<option value="">Spain</option>
+<option value="">Sri Lanka</option>
+<option value="">Sudan</option>
+<option value="">Suriname</option>
+<option value="">Swaziland</option>
+<option value="">Sweden</option>
+<option value="">Switzerland</option>
+<option value="">Syria</option>
+<option value="">Thailand</option>
+<option value="">Timor-Leste</option>
+<option value="">Togo</option>
+<option value="">Tonga</option>
+<option value="">Trinidad and Tobago</option>
+<option value="">Tunisia</option>
+<option value="">Turkey</option>
+<option value="">Uganda</option>
+<option value="">Ukraine</option>
+<option value="">United Arab Emirates</option>
+<option value="">United Kingdom</option>
+<option value="">Uruguay</option>
+<option value="">Vanuatu</option>
+<option value="">Venezuela</option>
+<option value="">Yemen</option>
+<option value="">Zambia</option>
+<option value="">Zimbabwe</option>
+<option value="">Afghanistan</option>
+<option value="">Kiribati</option>
+<option value="">Mauritania</option>
+
+
+							  </select>
+							  <br>
+							  
+							  <select type= class="form-control form-control-md input-budget" id="budgetamount1" required  placeholder="Commodity Code" >
+								<option>	select category	</option>
+<option>	02_meat_and_edible_meat_offal       	</option>
+<option>	02_meat_and_edible_meat_offal	</option>
+<option>	02_meat_and_edible_meat_offal	</option>
+<option>	02_meat_and_edible_meat_offal	</option>
+<option>	02_meat_and_edible_meat_offal	</option>
+<option>	02_meat_and_edible_meat_offal	</option>
+<option>	02_meat_and_edible_meat_offal	</option>
+<option>	02_meat_and_edible_meat_offal	</option>
+<option>	02_meat_and_edible_meat_offal	</option>
+<option>	02_meat_and_edible_meat_offal	</option>
+<option>	02_meat_and_edible_meat_offal	</option>
+<option>	02_meat_and_edible_meat_offal	</option>
+<option>	02_meat_and_edible_meat_offal	</option>
+<option>	02_meat_and_edible_meat_offal	</option>
+<option>	02_meat_and_edible_meat_offal	</option>
+<option>	02_meat_and_edible_meat_offal	</option>
+<option>	02_meat_and_edible_meat_offal	</option>
+<option>	02_meat_and_edible_meat_offal	</option>
+<option>	02_meat_and_edible_meat_offal	</option>
+<option>	02_meat_and_edible_meat_offal	</option>
+<option>	02_meat_and_edible_meat_offal	</option>
+<option>	02_meat_and_edible_meat_offal	</option>
+<option>	02_meat_and_edible_meat_offal	</option>
+<option>	02_meat_and_edible_meat_offal	</option>
+<option>	02_meat_and_edible_meat_offal	</option>
+<option>	02_meat_and_edible_meat_offal	</option>
+<option>	02_meat_and_edible_meat_offal	</option>
+<option>	02_meat_and_edible_meat_offal	</option>
+<option>	02_meat_and_edible_meat_offal	</option>
+<option>	02_meat_and_edible_meat_offal	</option>
+<option>	02_meat_and_edible_meat_offal	</option>
+<option>	02_meat_and_edible_meat_offal	</option>
+<option>	02_meat_and_edible_meat_offal	</option>
+<option>	02_meat_and_edible_meat_offal	</option>
+<option>	02_meat_and_edible_meat_offal	</option>
+<option>	02_meat_and_edible_meat_offal	</option>
+<option>	02_meat_and_edible_meat_offal	</option>
+<option>	02_meat_and_edible_meat_offal	</option>
+<option>	02_meat_and_edible_meat_offal	</option>
+<option>	03_fish_crustaceans_molluscsnn_	</option>
+<option>	03_fish_crustaceans_molluscs_	</option>
+<option>	03_fish_crustaceans_molluscs_	</option>
+<option>	03_fish_crustaceans_molluscs_	</option>
+
+								</select>
+								<input type=number class="" id="budgetamount1" required  placeholder="Quantity" ><br>
+							
+							 
+							  <button  class="btn btn-primary " onclick='fillItem()'  >Predict Shipping Cost</button>
+							</div>
+
+							  
+						</div>
+                    </div>
+                </div>
+            </div>
+        
+        <!-- Icons Grid-->
+        <section class="features-icons bg-light text-center">
+            <div class="container">
+                <div class="row">
+					
+                    <div class="col-lg-4">
+                        <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
+                            <div class="features-icons-icon d-flex"><i class="bi-layers m-auto text-primary"></i></div>
+                            <h3>Predicted Shipping Cost</h3>
+                            <p class="lead mb-0">Predicted Shipping Cost</p>
+							<h3 id='sectionPredicted'>
+
+							</h3>
+                        </div>
+                    </div>
+                    <div class="col-lg-2">
+                        <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
+                            <div class="features-icons-icon d-digits"><i class="bi-window m-auto text-primary"></i></div>
+                            <h3>Commodity Quantity</h3>
+                            <p class="lead mb-0">here</p>
+							<h3 id='sectionBudget'>
+							
+							</h3>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="features-icons-item mx-auto mb-0 mb-lg-3">
+                            <div class="features-icons-icon d-flex"><i class="bi-terminal m-auto text-primary"></i></div>
+                            <h3>Destination Warehouse</h3>
+                            <p class="lead mb-0">Ready to ship!</p>
+							<h3 id='sectionAPI'>
+							</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Image Showcases-->
+ <!-- Icons Grid-->
+       
+		<div class="container">
+			<div class="row">
+			 <div class="col-md-6 offset-3 ">
+			<table class="table table-sm table-striped table-hover" id="dataTable">
+			<caption>Data used for Model</caption>
+			  <thead>
+				<tr>
+				  <th scope="col">Budget</th>
+				  <th scope="col">Sales</th>
+				</tr>
+			  </thead>
+			  <tbody  id="tbodyid">
+				<tr>
+
+				</tr>
+			  </tbody>
+			</table>
+			</div>
+		 </div>
+         </div>
+      
+      
+        <!-- Footer-->
+        <footer class="footer bg-light">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 h-100 text-center text-lg-start my-auto">
+   
+                        <p class="text-muted small mb-4 mb-lg-0">&copy; BI Insights Ince 2021. All Rights Reserved.</p>
+                    </div>
+                    <div class="col-lg-6 h-100 text-center text-lg-end my-auto">
+                        <ul class="list-inline mb-0">
+                            <li class="list-inline-item me-4">
+                                <a href="#!"><i class="bi-facebook fs-3"></i></a>
+                            </li>
+                            <li class="list-inline-item me-4">
+                                <a href="#!"><i class="bi-twitter fs-3"></i></a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="#!"><i class="bi-instagram fs-3"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+		<script src="http://code.jquery.com/jquery-2.1.3.min.js"></script>
+
+		<script>	
+
+			    let fillItem = () => {
+					  
+					  if (!$('#budgetamount').val()){
+					  //set border color to the input
+						$('#budgetamount').attr('style', "border-radius: 5px; border:#FF0000 1px solid;");
+						//alert("Please enter a value");
+					  } else{
+						//Remove previous value
+						document.getElementById("sectionBudget").innerHTML = "";
+						document.getElementById("sectionPredicted").innerHTML = "";
+						document.getElementById("sectionAPI").innerHTML = "";
+						//get values plus set section values...
+						var prodivedBudget = $("#budgetamount").val();
+						let budgetElement = document.getElementById('sectionBudget');
+						budgetElement.innerHTML += prodivedBudget + " Units";
+						//ajax call to get predicted value
+						$.ajax({
+							type:"GET",
+							dataType: "json",
+							crossDomain: true,
+							//api url with parameter
+							url: "http://127.0.0.1:5000/prediction/" + prodivedBudget,
+							success: function(data){
+								console.log(data);	
+								let predictedElement = document.getElementById('sectionPredicted');
+								predictedElement.innerHTML += data + "M";
+					
+							}
+							})
+						//set 3rd div value
+						let sectionAPIElement = document.getElementById('sectionAPI');
+						sectionAPIElement.innerHTML += "Warehouse";
+						
+					  }
+					  //get dataframe from api
+					  $.ajax({
+							type:"GET",
+							dataType: "json",
+							data:{},
+							//url: "http://127.0.0.1:5000/data/", //original call to route
+							url: "http://127.0.0.1:5000/api",
+							crossDomain: true,
+							success: function(data){
+								//console.log(data);
+								var parsedJson = $.parseJSON(data);
+								$.each(parsedJson,function(index,value){ 
+								   console.log( value.sale);
+								});
+								//
+								$("#tbodyid").empty();
+								var rows = [];
+								$.each(parsedJson,function(index,value) {
+									rows.push('<tr><td>'+value.budget+'</td><td>'+value.sale+'</td></tr>');
+								});
+								$('table').append(rows.join(''));
+							
+							}
+						})
+
+				}
+
+		</script>
+
+    </body>
+</html>
