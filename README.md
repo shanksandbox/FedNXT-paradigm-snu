@@ -11,18 +11,7 @@ FedNXT is one-stop solution to the supply chain and warehouse management needs o
 - Transfer products to warehouses, price estimation for freights using ML model
 - Overview & warehouse stock charts, Product quantity & expiry alerts, Daily, monthly custom sales, payments, profit/loss purchase report, Customers, supplier, due, best-seller reports
 
-### FedNXT 
-<pre>
-
-<img src="./images/img1.jpg" alt="1" width="1020" height="720" /> <img src="./images/img2.jpg" alt="1" width="300" height="600" /> <img src="./images/img3.jpg" alt="1" width="300" height="600" /> <img src="./images/img11.jpg" alt="1" width="300" height="600" /> <img src="./images/img4.jpg" alt="1" width="300" height="600" /> <img src="./images/img5.jpg" alt="1"
-
-         width="300" height="600" /> <img src="./images/img6.jpg" alt="1"
-
-         width="300" height="600" /> <img src="./images/img7.jpg" alt="1"
-
-         width="300" height="600" />
-
-</pre>
+![](./Image-Assets/img1.jpg)
 ### How to run?
 - setup server through cpanel
 - flask run to expose API
