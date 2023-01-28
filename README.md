@@ -13,7 +13,7 @@ FedNXT is one-stop solution to the supply chain and warehouse management needs o
 
 ###UI/UX
 <pre>
-<img src="./images/img1.jpg" alt="1" width="300" height="600" /> <img src="./images/img2.jpg" alt="1" width="300" height="600" /> <img src="./images/img3.jpg" alt="1" width="300" height="600" /> <img src="./images/img11.jpg" alt="1" width="300" height="600" />
+<img src="./images/img1.jpg" alt="1"  /> <img src="./images/img2.jpg" alt="1" width="300" height="600" /> <img src="./images/img3.jpg" alt="1" width="300" height="600" /> <img src="./images/img11.jpg" alt="1" width="300" height="600" />
 </pre>
 ### How to run?
 - setup server through cpanel
