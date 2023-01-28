@@ -45,7 +45,6 @@ FedNXT is one-stop solution to the supply chain and warehouse management needs o
 ### Contributors
 - Shashank Kumar
 - Aman Gupta
-- Richa Agrawal
 - Shubhi Singh
 
 Built with ❤️ by Team C.O.D.E<br>
