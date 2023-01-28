@@ -1,17 +1,15 @@
 ![](./Image-Assets/image1.gif)
-# prideBnB🌈
+# FedNXT🌈
 # [Download App Here](https://drive.google.com/file/d/11wZ_09a3Q_Dx0UdZoB4NDb7GwuoueZkc/view?usp=share_link)   
-An app to assist people of LGBTQ+ communities to find hotels, places and destinations with good hospitality.
+FedNXT is one-stop solution to the supply chain and warehouse management needs of B2B sectors. 
 
-### Feature of prideBnB
-- create User Profile, select "I identify as" option and explore.
-- Explore various categories of Hotels, Hospitals, Places and destinations.
-- Search and get the curated results of places based on ratings and review.
-- Apply various filters to get desired result.
-- Get information as such reviews, ratings and location.
-- Get direction to booking of prefered location.
-- Tap and know about the LGBTQ+ rights in different states of India.
-- Write reviews and be a guide to others.
+
+### Feature of FedNXT
+- allows you to manage your inventory, sales, purchases, customers, invoices, take payments and much more.
+- Update your stock information, make purchases and view sales information from anywhere anytime. 
+- For products,you have Standard Product, Digital Product, Product Category with operation functionalites of Add, edit, delete & view products, Print Barcodes, Import by CSV
+- Transfer products to warehouses, price estimation for freights using ML model
+- Overview & warehouse stock charts, Product quantity & expiry alerts, Daily, monthly custom sales, payments, profit/loss purchase report, Customers, supplier, due, best-seller reports
 
 
 ### ScreenShots of prideBnB 
