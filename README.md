@@ -13,7 +13,7 @@ FedNXT is one-stop solution to the supply chain and warehouse management needs o
 
 ### FedNXT 
 <pre>
-<img src="./Image-Assets/img1.jpeg" alt="1" width="500" height="380" /> 
+<img src="./Image-Assets/img1.jpeg" alt="1"  /> 
 <img src="./Image-Assets/img2.jpeg" alt="1" width="500" height="380" /> 
 <img src="./Image-Assets/img3.jpeg" alt="1" width="500" height="380" /> 
 <img src="./Image-Assets/img4.jpeg" alt="1" width="500" height="380" /> 
