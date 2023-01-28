@@ -12,6 +12,7 @@ FedNXT is one-stop solution to the supply chain and warehouse management needs o
 - Overview & warehouse stock charts, Product quantity & expiry alerts, Daily, monthly custom sales, payments, profit/loss purchase report, Customers, supplier, due, best-seller reports
 
 ![](./images/img1.jpg)
+<img src="/images/img1.jpg">
 ### How to run?
 - setup server through cpanel
 - flask run to expose API
