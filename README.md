@@ -1,6 +1,6 @@
 ![](./Image-Assets/image1.gif)
 # FedNXT
-# [Download App Here](https://drive.google.com/file/d/11wZ_09a3Q_Dx0UdZoB4NDb7GwuoueZkc/view?usp=share_link)   
+# [Website Here](https://drive.google.com/file/d/11wZ_09a3Q_Dx0UdZoB4NDb7GwuoueZkc/view?usp=share_link) | [Download App Here](https://drive.google.com/file/d/11wZ_09a3Q_Dx0UdZoB4NDb7GwuoueZkc/view?usp=share_link)   
 FedNXT is one-stop solution to the supply chain and warehouse management needs of B2B sectors. 
 
 
