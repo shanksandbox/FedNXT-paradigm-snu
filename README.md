@@ -49,5 +49,5 @@ FedNXT is one-stop solution to the supply chain and warehouse management needs o
 - Shubhi Singh
 
 Built with ❤️ by Team C.O.D.E
-Paradigm, E-Submit'23
-Shiv Nadar University
+- Paradigm, E-Submit'23
+- Shiv Nadar University
