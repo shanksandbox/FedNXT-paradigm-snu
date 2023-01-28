@@ -22,6 +22,11 @@ FedNXT is one-stop solution to the supply chain and warehouse management needs o
 
 </pre>
 
+### How to run?
+- setup server through cpanel
+- flask run to expose API
+- follow the attached documentation
+- Login: admin Password: admin
 
 
 ### Contributors
