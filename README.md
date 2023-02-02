@@ -21,10 +21,9 @@ Password- admin
 - Login: admin Password: admin
 
 ### Contributors
-- Shashank Kumar
-- Aman Gupta
 - Shubhi Singh
-
+- Aman Gupta
+- Shashank Kumar
 Built with ❤️ by Team C.O.D.E<br>
 Paradigm, E-Submit'23<br>
 Shiv Nadar University
